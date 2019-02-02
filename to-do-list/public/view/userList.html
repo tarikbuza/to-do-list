@@ -1,0 +1,73 @@
+<div class="PP_Lists">
+    <div class="PP__sublists">
+        <h1 class="Lists__heading">Private Lists</h1>
+        <div class="Lists__lists">
+            <div class="Lists">
+                <h2 class="Lists__listsHeading">Lists</h2>
+                <div id="userLists">
+                </div>
+                <button id="addList" style="margin-top:35px;"class="Lists__buttonAdd" onclick="addListModal()">Add list</button>
+            </div>
+            <div class="Lists__listFullView">
+                <h2 class="Lists__listsHeading">List content</h2>
+                <span id="listName" class="Lists_listName"></span>
+                <div id="listTablePrivate" class="Lists__table">
+                    <table cellspacing="0" id="itemTablePrivate">
+                        <tr></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="Lists__lists">
+            <div style="margin-left:330px;">  
+                <h2 class="Lists__listsHeading">Map</h2> 
+                <div style="margin-top:50px;width:780px; height:500px;" id="showGeolocation"></div> 
+            </div>
+        </div>
+        <div id="modalItem" class="modal">
+            <div class="modal-content-item">
+                <span onclick="closeModalItem()" class="close">&times;</span>
+                <p class="Lists__ListName">Add item to list (click 'Show map' to add location)</p>
+                <form>
+                    <div style="display: flex;flex-direction: row;align-items: center;">
+                    <input
+                            id="item"
+                            class="Field_Shape placeholders font"
+                            type="text"
+                            name="item"
+                            placeholder="Item"
+                            style="margin-right: 20px;"
+                        />
+                        <br/>                
+                    
+                    
+                    </div>
+                    <button id="open" class="Lists__button" style="width:110px"onclick="openMap(event)">Show map</button>
+                    <div id="addItemMap" style=" margin:20px auto; height:500px;width: 500px;"></div>
+                    <button id="doneAdd" class="Lists__button" onclick="addItem(event,false)">DONE</button>
+                </form>                  
+            </div>    
+        </div>
+        <div id="modalList" class="modal">
+            <div class="modal-content">
+                <span onclick="closeListModal()" class="close">&times;</span>
+                <p class="Lists__ListName">Add list</p>
+                <form>
+                    <div style="display: flex;flex-direction: row;align-items: center;">
+                    <input
+                            id="addListName"
+                            class="Field_Shape placeholders font"
+                            type="text"
+                            placeholder="List name"
+                            style="margin-right: 20px;"
+                        />
+                        <br/>
+                    </div>
+                    <button id="doneAdd" class="Lists__button" onclick="addList(event,1)">DONE</button>
+                </form>  
+            </div>    
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="/css/lists.css">

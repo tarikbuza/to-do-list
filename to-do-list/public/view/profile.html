@@ -1,0 +1,38 @@
+    <div class="GeneralInfo">
+        <h1 class="GeneralInfo__heading">General Account Information</h1>
+        <h3 class="GeneralInfo__title">Edit your account information</h3>
+        <form>
+            <input
+                id="currentPassword"
+                class="GeneralInfo__input"
+                type="password"
+                name="currentPassword"
+                placeholder="Current Password"
+            />
+            <span class="GeneralInfo__subtitle"> Update new password</span>
+            <span class="GeneralInfo__text"> Re-enter your new password in order to update new password </span>
+            <input
+                id="newPassword"
+                class="GeneralInfo__input"
+                type="password"
+                name="newPassword"
+                placeholder="New Password"
+            />
+            <input
+                id="confirmPassword"    
+                class="GeneralInfo__input"
+                type="password"
+                name="confirmNewPassword"
+                placeholder="Re-enter New Password"
+            />
+            <input
+                class="GeneralInfo__button"
+                type="submit"
+                name="submit"
+                value="SAVE CHANGES"
+                onclick="changePassword(event)"
+            />
+        </form>
+        <a  onclick="logOut()" class="GeneralInfo__logout">Log Out</a>
+        
+    </div>

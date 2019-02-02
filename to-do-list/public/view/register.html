@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="loginDiv">
+            <div class="login">
+                <img class="photo" src=" ../images/logo.png " />
+                <label class="title">Create account</label>
+                <p class="text">
+                    We&rsquo;re excited to provide you innovative tools to
+                <br/>
+                    help you organize your time and schedule the best.
+                <br/>
+                </p>
+                <form>
+                    <p class="signInEmail">SIGN UP WITH EMAIL</p>
+                    <div class="inline">
+                        <input
+                            class="firstLastName placeholders font" style="margin-right: 2.5px"
+                            type="text"
+                            name="firstName"
+                            id="firstName"
+                            placeholder="First Name"
+                        />
+                        <br />
+                        <input
+                        class="firstLastName placeholders font" style="margin-left: 2.5px"
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            placeholder="Last Name"
+                        />
+                        <br />
+                    </div>
+                    <input
+                        class="Field_Shape placeholders font"
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email address"
+                    />
+                    <br/>
+                    <input
+                        class="Field_Shape placeholders font"
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Password"
+                    />
+                    <br/>
+                    <input
+                        class="signIn pointer font"
+                        type="button"
+                        onclick="redirectRegister()"
+                        name="submit"
+                        value="SIGN UP"
+                    />
+                </form>
+                <div class="belowForm">
+                    <label>ALREADY HAVE AN ACCOUNT?</label>
+                    <a class="signUp" name="linkRegistracija" onClick="changeContent('login');">SIGN IN</a>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../js/login.js"type="text/javascript" language="javascript"></script>
+</html>

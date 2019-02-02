@@ -1,0 +1,142 @@
+.loginDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    background: url("../images/To_Do_List.png") no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin:0; }
+  
+    body {
+      margin:0;
+      height: 100%; }
+  .belowForm label {
+    padding-right: 5px;
+    font-size: 15px;
+    color: #6e6e6e; }
+  
+  .login {
+    padding-bottom: 48px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 15px auto;
+    margin-top: 200px; }
+  
+  .placeholders {
+    font-size: 20px;
+    color: #313133;
+    line-height: 1.2;
+    text-align: center; }
+  
+  .title {
+    font-size: 34px;
+    color: #04040f;
+    font-weight: bolder;
+    line-height: 1.2;
+    text-align: center; }
+  
+  .text {
+    font-size: 18px;
+    color: #6e6e6e;
+    line-height: 1.2;
+    text-align: center; }
+  
+  
+  .signInEmail {
+    font-size: 16px;
+    color: #6e6e6e;
+    text-shadow: none;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    border: none; }
+  
+  .Email_address {
+    font-size: 16px;
+    color: #c7c7cc;
+    line-height: 1.2;
+    text-align: center; }
+  
+  .Field_Shape {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #f0f0f1;
+    width: 330px;
+    height: 44px;
+    margin-bottom: 10px; }
+  
+  .input {
+    box-sizing: border-box;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 17px;
+    border: none;
+    background-color: #efebe9;
+    padding: 1em 3em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    outline-width: 0; }
+  
+  .signIn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    line-height: 1.2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: #03A8F2;
+    width: 330px;
+    height: 44px;
+    margin-bottom: 25px; }
+    .signIn:hover, .signIn:focus {
+      background: #0190D1;
+  cursor: pointer; }
+  
+  .signUp {
+    margin-bottom: 10px;
+    font-size: 16px;
+    outline-width: 0;
+    border: none;
+    font-weight: bold;
+    color: #6e6e6e;
+    background-color: transparent;
+    cursor: pointer; }
+  .pointer {
+    cursor: pointer; }
+  .photo {
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+  .firstLastName {
+    display: inline;
+    border-radius: 6px;
+    width: 162.5px;
+    height: 44px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: #f0f0f1;
+    margin-bottom: 10px; }
+  
+  .inline {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 330px; }
+  
+  .errorMessage {
+    color: red;
+    max-width: 330px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }

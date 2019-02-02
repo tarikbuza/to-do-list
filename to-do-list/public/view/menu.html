@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="/css/menu.css">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="Header font">
+        <div class="Header__container">
+          <div class=" Header__logo picture">
+            <img style="max-width:  90px; max-height: 65px" src="../images/logo.png"/>
+          </div>
+          <div class="Header__container--nav" id="navigation">
+            <ul>
+              <li id="dashboard" class="dashboard">
+                <a onclick="change('userList')">
+                  <img src="../images/user-list-logo.png" data-name="userList"/>
+                  <label>User Lists</label>
+                </a>
+              </li>
+              <li id="mealPlan">
+                <a onclick="change('publicList')">
+                    <img src="../images/public-list-logo.png" data-name="publicList"/>
+                    <label>Public Lists</label>
+                </a>
+              </li>
+              <li id="support">
+                <a onclick="change('homePage')">
+                    <img src="../images/home.png" data-name="homePage"/>
+                    <label>Home</label>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="Header__container--profile">
+            <a onclick="change('profile')">
+                <img class ="Header__container--userPicture"src="../images/avatar-unisex.png"/>
+                <label>Profile</label>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </body>
+</html>

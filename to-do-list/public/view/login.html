@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="../css/login.css">
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="loginDiv">
+            <div class="login">
+                <img class="photo" src=" ../images/logo.png " />
+                <label class="title">Welcome to To-Do List</label>
+                <p class="text">
+                We&rsquo;re excited to provide you innovative tools to
+                <br/>
+                help you organize your time and schedule the best.
+                <br/>
+                </p>
+                <form>
+                    <p class="signInEmail">SIGN IN WITH EMAIL</p>
+                    <input
+                        id="email"
+                        class="Field_Shape placeholders font"
+                        type="email"
+                        name="email"
+                        placeholder="Email address"
+                    />
+                    <br/>
+                    <input
+                        id="password"
+                        class="Field_Shape placeholders font"
+                        type="password"
+                        name="password"
+                        placeholder="Password"
+                    />
+                    <br/>
+                    <input
+                        class="signIn pointer font"
+                        type="button"
+                        onclick="redirectLogin()"
+                        name="submit"
+                        value="SIGN IN"
+                    />
+                    <div class="errorMessage" id="errorMsg">
+                    </div>
+                </form>
+                <div class="belowForm">
+                    <label>DON&rsquo;T HAVE AN ACCOUNT?</label>
+                    <a class="signUp" name="linkRegistracija" onClick="changeContent('register');">SIGN UP</a>
+                    <br/>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="../js/login.js"type="text/javascript" language="javascript"></script>
+</html>

@@ -1,0 +1,107 @@
+.dashboard {
+    margin-left: 0 !important; }
+  
+  .Header {
+    left: 180px;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    border-bottom: 1px solid #e5e5ea; }
+    .Header__container {
+      width: 100%;
+      max-width: 1160px;
+      display: flex;
+      padding: 10px 0;
+      flex-direction: row;
+      max-height: 100%;
+      box-sizing: border-box;
+      align-items: center;
+      margin: 0 auto;
+      justify-content: space-between; }
+      .Header__container--nav {
+        display: flex;
+        padding: 0;
+        height: 100%;
+        margin: 0;
+        margin-right: 15px; }
+        .Header__container--nav ul {
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between; }
+          .Header__container--nav ul li {
+            display: flex;
+            flex-direction: column;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+            margin-left: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            .Header__container--nav ul li a {
+              height: 100%;
+              font-size: 13px;
+              color: #c7c7cc;
+              text-transform: uppercase;
+              text-align: center;
+              text-decoration: none; }
+              .Header__container--nav ul li a img {
+                height: 28px; }
+              .Header__container--nav ul li a label {
+                font-size: 20px;
+                    display: block; }
+                .Header__container--nav ul li a label:hover, .Header__container--nav ul li a label:focus {
+                  cursor: pointer;
+                  color: black; }
+              .Header__container--nav ul li a:hover, .Header__container--nav ul li a:focus {
+                color: black; }
+            .Header__container--nav ul li:hover, .Header__container--nav ul li:focus {
+              border-bottom: 1.5px solid rgba(49, 49, 51, 0.502);
+              color: black; }
+        @media screen and (min-width: 470px) {
+          .Header__container--nav {
+            margin-right: 0; } }
+      .Header__container--profile {
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 13px; }
+        .Header__container--profile a {
+          height: 100%;
+          font-size: 13px;
+          color: #c7c7cc;
+          text-transform: uppercase;
+          text-align: center;
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center; }
+          .Header__container--profile a label {
+            font-size: 20px;
+                display: block; }
+            .Header__container--profile a label:hover, .Header__container--profile a label:focus {
+              cursor: pointer;
+              color: black; }
+      .Header__container--name {
+        padding: 0;
+        line-height: 75px;
+        font-size: 20px;
+        color: black;
+        margin-right: 10px; 
+        display: block;
+        text-decoration: none; }y
+        .Header__container--name:hover, .Header__container--name:focus {
+          border-bottom: 1.5px solid  black; }
+      .Header__container--userPicture {
+        width: 34px; }
+  
+  svg {
+    fill: #c7c7cc; }
+  

@@ -1,0 +1,226 @@
+.Lists__button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    line-height: 1.2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #03A8F2;
+    width: 90px;
+    height: 40px;
+}
+.Lists__button:hover, .Lists__button:focus {
+    background: #0190D1;
+cursor: pointer; }
+.Lists__delete{
+    height:20px;
+}
+.Lists__delete:hover, .Lists__delete:focus {
+cursor: pointer; }
+.Lists__buttonAdd{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 16px;
+    line-height: 1.2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    background-color: #03A8F2;
+    width: 140px;
+    height: 44px;
+    margin-bottom: 10px;
+}
+.Lists__buttonAdd:hover, .Lists__buttonAdd:focus {
+    background: #0190D1;
+cursor: pointer; }
+.Lists__ListName{
+    line-height: 1.2;
+    font-size: 20px; 
+    font-weight:600;
+    margin-right: 10px;
+    align-self: center;
+}
+.Lists__singleList{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Lists{
+    width: 300px;
+    padding-right: 30px;
+    border-right: solid 1px;
+    margin-right:50px;
+}
+.Lists__Contribution{
+    width: 350px;
+    padding-right: 30px;
+}
+.PP_Lists{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 1160px;
+    margin:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.PP__sublists{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Lists__lists{
+    margin-top: 50px;
+    display:flex;
+    width: 100%;
+}
+.Lists_listName{
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: left;   
+    margin-bottom: 20px;
+}
+.Lists__doneItem{
+    height: 26px;
+    width: 26px;
+    border-radius: 17px;
+    border:grey;
+    border-style: solid;
+    border-width: 2.5px;
+    background:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.Lists__doneItem img{
+    height:20px;
+    justify-items: auto
+}
+.Lists__doneItem:hover, .Lists__doneItem:focus {
+cursor: pointer; }
+.Lists__listFullView{
+    font-weight: 400;
+}
+
+.Lists__star:hover, .Lists__star:focus {
+    cursor: pointer; }
+
+.svg{
+    padding-left:5px;
+    padding-top:7px;
+}
+.Lists__heading {
+    font-size: 45px;
+    margin:5px 0 0 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center; }
+    @media screen and (min-width: 640px) {
+      .GeneralInfo__heading {
+        font-size: 50px; } }
+.Lists__listsHeading {
+    font-size: 34px;
+    margin:0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: bold;
+    text-align: left; }
+    @media screen and (min-width: 640px) {
+      .GeneralInfo__heading {
+        font-size: 50px; } }
+.Lists__table{
+    border:solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:10px;
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+.Lists__table button{
+    margin-top:10px;
+    
+}
+th, td{
+    width:150px;
+    border-bottom: solid 0.5px grey;
+    text-align: center;
+}
+
+
+
+
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 20%;
+  }
+  .modal-content-item {
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: -180px;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 30%;
+  }
+  .modal-content-item form{
+      padding: 20px 0 0 20px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .Lists__table__add{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .Lists__singleListInner{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      align-items: center;
+  }
+  .Lists__delete{
+      margin-left: 10px;
+  }
